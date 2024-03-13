@@ -36,6 +36,8 @@ add_admin_tickets_js_assets() : mixed
 add_datatables_js_assets([mixed $group = 'admin' ]) : mixed
 app_compile_css([mixed $group = 'admin' ]) : mixed
 app_compile_scripts([mixed $group = 'admin' ]) : mixed
+
+# clients_helper.php 
 is_contact_email_verified([mixed $id = null ]) : bool
 is_email_verification_enabled() : bool
 is_client_id_used(mixed $id) : bool
